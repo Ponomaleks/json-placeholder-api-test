@@ -1,0 +1,29 @@
+{
+  "name": "json-placeholder-api-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url /json-placeholder-api-test/",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ponomaleks/json-placeholder-api-test.git"
+  },
+  "author": "Alexander Ponomarenko <ponomaleks@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ponomaleks/json-placeholder-api-test/issues"
+  },
+  "homepage": "https://github.com/Ponomaleks/json-placeholder-api-test#readme",
+  "devDependencies": {
+    "parcel": "^2.2.1",
+    "parcel-plugin-nuke-dist": "^1.0.1"
+  },
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
